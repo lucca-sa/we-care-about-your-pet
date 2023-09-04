@@ -1,0 +1,174 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    height: 200vh;
+    width: 200vw;
+}
+
+header {
+    margin-left: 76px;
+    position: sticky;
+    top: 0px;
+    background: white;
+    padding-top: 44px;
+    padding-bottom: 44px;
+}
+
+.link-header {
+    color: #989D9C;
+    font-size: 24px;
+    font-weight: 600;
+    margin-right: 23px;
+    line-height: 29px;
+    cursor: pointer;
+}
+
+.button-header {
+    background: #665AE1;
+    width: 130px;
+    height: 41px;
+    border-radius: 50px;
+    border: none;
+    color: #FFF;
+    font-size: 24px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+main {
+    display: flex;
+}
+
+.logo-image {
+    margin-left: 125px;
+    margin-top: 144px;
+
+}
+
+section {
+    margin-left: 86px;
+    margin-top: 138px;
+}
+
+h1 {
+    color: #515151;
+    font-size: 100px;
+    font-weight: 900;
+    line-height: 122px;
+}
+
+h2 {
+    color: #515151;
+    font-size: 58px;
+    font-weight: 500;
+    line-height: 71px;
+}
+
+p {
+    color: #848484;
+    font-size: 24px;
+    font-weight: 400;
+    width: 515px;
+    margin-top: 32px;
+    margin-bottom: 65px;
+}
+
+.button-main {
+    border-radius: 50px;
+    background: #ADFF00;
+    width: 239px;
+    height: 64px;
+    cursor: pointer;
+    color: #000;
+    font-size: 28px;
+    font-weight: 700;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    border: none;
+}
+
+button:hover,
+a:hover {
+    opacity: .8;
+}
+
+button:active,
+a:active {
+    opacity: 0.5;
+}
+
+
+@media screen and (max-width: 900px) {
+
+    body {
+        width: 100%;
+        height: 100%;
+    }
+    main {
+        display: block;
+        width: 100%;
+    }
+
+    p {
+        display: none;
+        position: fixed;
+    }
+
+    header {
+        display: none;
+        position: fixed;
+    }
+
+    .img-div {
+        width: 100%;
+        height: 50%;
+        padding: 149px 14px 0 14px;
+        margin: 0;
+    }
+
+    .logo-image {
+        position: static;
+        max-width: 100%;
+        margin: 0;
+        padding: 0;
+
+    }
+
+    h1 {
+        color: #515151;
+        font-size: 50px;
+        font-weight: 900;
+        width: auto;
+        margin: 0px 60px 7px 60px;
+        text-align: center;
+        line-height: 52px;
+    }
+
+    h2 {
+        font-size: 30px;
+        line-height: 37px;
+        width: auto;
+        text-align: center;
+        margin: 0px 79px 17px 79px;
+    }
+
+    section {
+        display: block;
+        width: 100%;
+        height: auto;
+        position: static;
+        margin: 0;
+        padding: 0;
+    }
+
+    button {
+        margin: 0 auto;
+        display: block;
+    }
+
+
+}

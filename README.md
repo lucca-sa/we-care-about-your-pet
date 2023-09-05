@@ -2,7 +2,7 @@
 </br>
  I'm excited to present this project, which I developed as a part of my programming journey. This project was created primarily for learning purposes and allowed me to gain hands-on experience with HTML and CSS technologies. One of the standout features of this project is its responsive design, ensuring that it adapts seamlessly to different screen sizes and devices. Throughout the development process, I had a great deal of fun exploring these technologies and enhancing my coding skills.
 </br></br></br>
-<h3><a href="https://lucca-sa.github.io/we-care-about-your-pet/">Deployed Website</a></a></h3>
+<h3><a href="https://lucca-sa.github.io/we-care-about-your-pet/">🔗 Deployed Website 🔗</a></a></h3>
 </br>
 <h2>Languages and tools used:</h2>
 </br>
